@@ -55,10 +55,8 @@ In this repository, you will find three distinct deep learning models tailored f
    - Gradcam.m: This MATLAB file is for generating Grad-CAM maps. To run it, load your pre-trained model, provide the image path, and specify the class index.
      
 2. **AdaD-FNN**:
-   - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
-   - COVID_Main.m: COVID_Main.m: This MATLAB file defines the neural network structure and main functions. To use it, specify the training and testing data paths, the number of epochs, and the learning rate.
-   - Gradcam.m: This MATLAB file is for generating Grad-CAM maps. To run it, load your pre-trained model, provide the image path, and specify the class index.
-   - 
+   - U2MNet-sample.ipynb: This Jupyter Notebook file is designed for running the U2-net model to perform segmentation of CT images. 
+   - adadfnn-sample.ipynb: This Jupyter Notebook file is used to run the AdaD-FNN ensemble learning model for classification. 
 2. **FuzzyPID**:
    - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
    - COVID_Main.m: COVID_Main.m: This MATLAB file defines the neural network structure and main functions. To use it, specify the training and testing data paths, the number of epochs, and the learning rate.
