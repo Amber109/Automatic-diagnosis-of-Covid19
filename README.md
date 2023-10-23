@@ -14,7 +14,7 @@ To set up the programming environment for this project, follow these steps:
 
 ### Prerequisites
 
-- MATLAB (version 2019.B)
+- MATLAB (version 2021.B)
 - Required Matlab Toolbox:
   - Image Processing Toolbox
   - Deep Learning Toolbox
