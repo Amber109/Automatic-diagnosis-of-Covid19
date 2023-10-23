@@ -43,8 +43,7 @@ To set up the programming environment for this project, follow these steps:
      ```
 
 ## Usage
-
-Describe how to use your project. Provide examples, code snippets, and any additional documentation required for users to get started. Explain how to:
+In this repository, you will find three distinct deep learning models tailored for the automatic diagnosis of Coronavirus Disease (COVID-19) based on chest CT images. Each model offers a unique approach to this critical task, empowering healthcare professionals and researchers with powerful diagnostic tools.
 
 1. **GBBNet**:
    - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
