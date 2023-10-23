@@ -46,24 +46,19 @@ To set up the programming environment for this project, follow these steps:
 
 Describe how to use your project. Provide examples, code snippets, and any additional documentation required for users to get started. Explain how to:
 
-1. **MATLAB Setup**:
+1. **GBBNet**:
+   - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
+   - COVID_Main.m: COVID_Main.m: This MATLAB file defines the neural network structure and main functions. To use it, specify the training and testing data paths, the number of epochs, and the learning rate.
+   - Gradcam.m: This MATLAB file is for generating Grad-CAM maps. To run it, load your pre-trained model, provide the image path, and specify the class index.
+     
+2. **AdaD-FNN**:
+   - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
+   - COVID_Main.m: COVID_Main.m: This MATLAB file defines the neural network structure and main functions. To use it, specify the training and testing data paths, the number of epochs, and the learning rate.
+   - Gradcam.m: This MATLAB file is for generating Grad-CAM maps. To run it, load your pre-trained model, provide the image path, and specify the class index.
+   - 
+2. **FuzzyPID**:
    - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
    - COVID_Main.m: COVID_Main.m: This MATLAB file defines the neural network structure and main functions. To use it, specify the training and testing data paths, the number of epochs, and the learning rate.
    - Gradcam.m: This MATLAB file is for generating Grad-CAM maps. To run it, load your pre-trained model, provide the image path, and specify the class index.
 
 
-## Contributing
-
-Explain how others can contribute to your project. Include information about issues, feature requests, and guidelines for contributing code to your repository.
-
-## License
-
-This project is licensed under the [License Name, e.g., MIT License] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Contact
-
-Include your contact information, such as email or a link to your personal website, so that users can get in touch with you if they have questions or want to collaborate.
-
----
-
-We hope this README helps you effectively present your project to the GitHub community. Feel free to customize it further to suit your project's unique needs.
