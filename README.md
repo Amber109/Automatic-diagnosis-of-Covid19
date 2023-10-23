@@ -46,9 +46,11 @@ To set up the programming environment for this project, follow these steps:
 
 Describe how to use your project. Provide examples, code snippets, and any additional documentation required for users to get started. Explain how to:
 
-- Preprocess CT images.
-- Train and test deep learning models.
-- Run diagnostics on new CT images.
+1. **MATLAB Setup**:
+   - COVIDEXTRACT_Fea_v5.m: This MATLAB file is used for feature extraction. To run it, provide the input image folder and output feature folder as arguments.
+   - COVID_Main.m: COVID_Main.m: This MATLAB file defines the neural network structure and main functions. To use it, specify the training and testing data paths, the number of epochs, and the learning rate.
+   - Gradcam.m: This MATLAB file is for generating Grad-CAM maps. To run it, load your pre-trained model, provide the image path, and specify the class index.
+
 
 ## Contributing
 
