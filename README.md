@@ -63,3 +63,23 @@ In this repository, you will find three distinct deep learning models tailored f
    - Trainer.m: "Trainer.m" is a MATLAB script designed for setting up the training process of the Fuzzy PID CNN model. It provides the configuration and initialization for training, allowing you to customize training parameters according to your specific needs.
    - trainNetworkFuzzy.m: This MATLAB script, "trainNetworkFuzzy.m," is tailored for training a neural network using the MNIST dataset. While not specific to COVID-19 diagnosis, it can serve as a valuable tool for neural network training tasks, particularly on image data such as the MNIST dataset.
 
+## Citation
+If you find this project useful for your research, please consider citing: 
+```bibtex   
+@article{tong2023clanet,
+  title={CLANet: A Comprehensive Framework for Cross-Batch Cell Line Identification Using Brightfield Images},
+  author={Tong, Lei and Corrigan, Adam and Kumar, Navin Rathna and Hallbrook, Kerry and Orme, Jonathan and Wang, Yinhai and Zhou, Huiyu},
+  journal={arXiv preprint arXiv:2306.16538},
+  year={2023}
+}
+@article{yao2022adad,
+  title={AdaD-FNN for chest CT-based COVID-19 diagnosis},
+  author={Yao, Xujing and Zhu, Ziquan and Kang, Cheng and Wang, Shui-Hua and Gorriz, Juan Manuel and Zhang, Yu-Dong},
+  journal={IEEE Transactions on Emerging Topics in Computational Intelligence},
+  volume={7},
+  number={1},
+  pages={5--14},
+  year={2022},
+  publisher={IEEE}
+}
+```
