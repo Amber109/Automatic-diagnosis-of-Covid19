@@ -14,7 +14,7 @@ To set up the programming environment for this project, follow these steps:
 
 ### Prerequisites
 
-- MATLAB (version 2019.A)
+- MATLAB (version 2019.B)
 - Required Matlab Toolbox:
   - Image Processing Toolbox
   - Deep Learning Toolbox
@@ -66,11 +66,15 @@ In this repository, you will find three distinct deep learning models tailored f
 ## Citation
 If you find this project useful for your research, please consider citing: 
 ```bibtex   
-@article{tong2023clanet,
-  title={CLANet: A Comprehensive Framework for Cross-Batch Cell Line Identification Using Brightfield Images},
-  author={Tong, Lei and Corrigan, Adam and Kumar, Navin Rathna and Hallbrook, Kerry and Orme, Jonathan and Wang, Yinhai and Zhou, Huiyu},
-  journal={arXiv preprint arXiv:2306.16538},
-  year={2023}
+@article{yao2021csgbbnet,
+  title={CSGBBNet: An explainable deep learning framework for COVID-19 detection},
+  author={Yao, Xu-Jing and Zhu, Zi-Quan and Wang, Shui-Hua and Zhang, Yu-Dong},
+  journal={Diagnostics},
+  volume={11},
+  number={9},
+  pages={1712},
+  year={2021},
+  publisher={MDPI}
 }
 @article{yao2022adad,
   title={AdaD-FNN for chest CT-based COVID-19 diagnosis},
