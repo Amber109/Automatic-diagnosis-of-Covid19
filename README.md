@@ -1,11 +1,12 @@
 # Automatic Diagnosis of Coronavirus Disease on Chest CT Images Utilizing Deep Learning
 
 ## Introduction
+
+Welcome to the "Automatic Diagnosis of Coronavirus Disease on Chest CT Images Utilizing Deep Learning" repository. This project focuses on the application of deep learning techniques to automatically diagnose Coronavirus Disease (COVID-19) using chest Computed Tomography (CT) images. By leveraging the power of machine learning and medical imaging, our goal is to assist healthcare professionals in the early detection and diagnosis of COVID-19 cases.
 <div align="center">
   <img src="UI.jpg"/>
 </div><br/>
 
-Welcome to the "Automatic Diagnosis of Coronavirus Disease on Chest CT Images Utilizing Deep Learning" repository. This project focuses on the application of deep learning techniques to automatically diagnose Coronavirus Disease (COVID-19) using chest Computed Tomography (CT) images. By leveraging the power of machine learning and medical imaging, our goal is to assist healthcare professionals in the early detection and diagnosis of COVID-19 cases.
 
 ## Programming Environment
 
