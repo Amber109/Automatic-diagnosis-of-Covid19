@@ -216,7 +216,7 @@ classdef Trainer < handle
                     
                     % according to the paper "PID Controller-Based
                     % Stochastic Optimization Acceleration for Deep Neural Networks",
-                    % we set Kp, Kd and Ki as follow:
+                    % we set Kp, Kd and Ki as follow, the subsequent Equations using is (5-27,5-28,5-29):
                     kp = 0.001;
                     ki = 0.001;
                     kd = 10;
@@ -228,7 +228,7 @@ classdef Trainer < handle
                             propagateState = iNeedsToPropagateState(data);
                             [gradients, activationsBufferFuzzy, predictions, states] = this.computeGradients(net, X, response, propagateState);
                             
-                            % Reuse the layers outputs to compute loss
+                            % Reuse the layers outputs to compute loss, with the use of Equation (5-34)
                             miniBatchLoss = net.loss( predictions, response );
                             
                             gradients = regularizer.regularizeGradients(gradients,net.LearnableParameters);
@@ -238,7 +238,7 @@ classdef Trainer < handle
                             velocity = solver.calculateUpdate(gradients,learnRate);
                             Fuzzy.activationsBufferFuzzy(i_iterate,epoch) = {activationsBufferFuzzy};
                             
-                            %                             WeightFuzzy_ec = [];
+                            %                             WeightFuzzy_ec = [];with the use of Equation (5-30-5-33)
                             Fuzzy.WeightFuzzy(i_iterate,epoch) = {squeeze(net.Layers{6,1}.Weights.Value(:,:,:,:))};
                             
                             %                             WeightFuzzy_ec(:,:,:) = velocity{5}(:,:,:,1);
@@ -254,7 +254,7 @@ classdef Trainer < handle
                                     Num_Cov = Num_Cov + 1;
                                     WeightFuzzy_e = [];
                                     WeightFuzzy_e = {net.Layers{Num_layers,1}.Weights.Value(:,:,:,:)};
-                                %% Fuzzy Control
+                                %% Fuzzy Control,with the use of Equation (5-35-5-46)
                                     r(Num_Cov, i_iterate) = WeightFuzzy_e;      %����ֵ
                                     if i_iterate == 1
                                         Size_r = size(r{Num_Cov, i_iterate});
